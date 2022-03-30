@@ -1,0 +1,17 @@
+<demo>
+禁用状态
+</demo>
+<template>
+  <Button disabled>默认按钮</Button>
+  <Button theme="primary" disabled>主要按钮</Button>
+  <Button theme="warning" disabled>警告按钮</Button>
+  <Button theme="danger" disabled>危险按钮</Button>
+</template>
+<script lang="ts">
+import Button from "../lib/Button.vue";
+export default {
+  components: {
+    Button
+  }
+}
+</script>
